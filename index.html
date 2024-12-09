@@ -179,7 +179,7 @@
         <!-- ...................................................................... ....................................................................-->
          <!-- Tag Bar -->
           
-<div class="tag-bar">
+<!-- <div class="tag-bar">
     <a href="https://www.facebook.com/" target="_blank" class="tag-item facebook">
         <i class="fab fa-facebook-f"></i>
     </a>
@@ -192,132 +192,11 @@
     <a href="mailto:your-email@example.com" class="tag-item gmail">
         <i class="fas fa-envelope"></i>
     </a>
-</div>
+</div> -->
 
 <!-- Include Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<!-- Styles -->
-<style>
-/* Tag Bar */
-.tag-bar {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #252729;
-    border-radius: 0 12px 12px 0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 10px;
-    gap: 15px;
-}
-
-/* Individual Tags */
-.tag-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(145deg, #f0f0f0, #dcdcdc);
-    color: #333;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 22px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.8);
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-/* Icon Shadow and Transformation */
-.tag-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    opacity: 0;
-    transform: scale(1.3);
-    transition: all 0.3s ease;
-    z-index: -1;
-}
-
-.tag-item:hover::before {
-    opacity: 1;
-    transform: scale(1.6);
-}
-
-.tag-item:hover {
-    transform: scale(1.15);
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(255, 255, 255, 0.9);
-}
-
-/* Individual Hover Effects */
-.tag-item.facebook:hover {
-    color: #1877f2;
-    background: linear-gradient(145deg, #e4f1fe, #d1e7fc);
-}
-
-.tag-item.whatsapp:hover {
-    color: #25d366;
-    background: linear-gradient(145deg, #dcf8d6, #c5eccb);
-}
-
-.tag-item.linkedin:hover {
-    color: #0077b5;
-    background: linear-gradient(145deg, #e3f2fd, #cde9fc);
-}
-
-.tag-item.gmail:hover {
-    color: #d93025;
-    background: linear-gradient(145deg, #fdeaea, #fbcfcf);
-}
-
-/* Add Tooltip */
-.tag-item::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    top: 50%;
-    left: 60px;
-    transform: translateY(-50%);
-    background-color: #333;
-    color: #fff;
-    font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    white-space: nowrap;
-}
-
-.tag-item:hover::after {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(-50%) translateX(10px);
-}
-</style>
-<div class="tag-bar">
-    <a href="https://www.facebook.com/" target="_blank" class="tag-item facebook" data-tooltip="Facebook(Shuvom Sz)">
-        <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://www.whatsapp.com/" target="_blank" class="tag-item whatsapp" data-tooltip="WhatsApp(+880 1679113991)">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="https://www.linkedin.com/" target="_blank" class="tag-item linkedin" data-tooltip="LinkedIn(https://www.linkedin.com/in/pritom-chanda-70447425b/)">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a href="mailto:your-email@example.com" class="tag-item gmail" data-tooltip="Email(sz.shuvom@gmail.com)">
-        <i class="fas fa-envelope"></i>
-    </a>
-</div>
 
     </nav>
     <div class="container-fluid">
@@ -444,7 +323,7 @@
                 <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
             </div>
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
+                <h3 class="font-weight-light">Personal Info 📝</h3>
                 <span class="line mb-5"></span>
                 <style>
                     /* Style for the list items */
@@ -568,7 +447,7 @@
             </style>
             
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
+                <h3 class="font-weight-light">My Expertise 👷🏻</h3>
                 <span class="line mb-5"></span>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
@@ -598,7 +477,7 @@
             
         </div>
     </div>
-    <div class="tag-bar">
+    <!-- <div class="tag-bar">
         <a href="https://www.facebook.com/" target="_blank" class="tag-item facebook" data-tooltip="Facebook">
             <i class="fab fa-facebook-f"></i>
         </a>
@@ -611,7 +490,7 @@
         <a href="mailto:your-email@example.com" class="tag-item gmail" data-tooltip="Email">
             <i class="fas fa-envelope"></i>
         </a>
-    </div>
+    </div> -->
     
     <!-- Include Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -956,7 +835,7 @@
         </div>
     </section>
     
-    <section class="section bg-dark py-5">
+    <!-- <section class="section bg-dark py-5">
         <div class="container text-center">
             <h5 class="text-light mb-5 font-weight-normal">"Should you require any additional information, please do not hesitate to reach out to me."</h5>
             <a href="https://mail.google.com/mail/u/0/#inbox">
@@ -965,7 +844,7 @@
             </a>
             
         </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Section -->
     <section class="section bg-custom-gray" id="portfolio">
@@ -1116,6 +995,133 @@
         
                  
     </section>
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Interest</span> - In</h2>
+            <div class="row">
+                
+                <style>
+                    .card {
+                        transition: transform 0.3s, box-shadow 0.3s;
+                        border: 1px solid transparent;
+                    }
+                    .card:hover {
+                        transform: translateY(-10px) scale(1.05);
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                        border-color: #ff4c4c;
+                    }
+                    .card-header.has-icon:hover i {
+                        color: #ff4c4c;
+                        transform: rotate(360deg);
+                        transition: transform 0.5s ease-in-out;
+                    }
+                </style>
+                <!-- Web Design Service -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-music text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Music</h5>
+                            <p class="subtitle">
+                                <h5>"Strumming strings,stealing hearts—just like my guitar, I’m always in tune with the moment." 🎸</h5><br>I’m passionate about music and love playing the guitar. It’s my creative outlet, allowing me to express myself and connect with others through melody and rhythm. Music is my joy and inspiration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Solo Singer Service -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-microphone text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Solo Singer</h5>
+                            <p class="subtitle">
+                                I am deeply inspired by the timeless voices of <b><u>John Denver</u></b> & <b><u>Eric Clapton</u></b>. Their unique styles and emotive performances have shaped my love for music and continue to fuel my passion for the guitar.<br><b><u>Freddie Mercury <br> Ed Sheeran <br>Corey taylor</u></b> <br> is also my favourite singer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Music Band Service -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="fas fa-guitar text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Music Band</h5>
+                            <p class="subtitle">
+                                <p>"Are you ready to turn up the volume? Because I’m all about headbanging to Linkin Park, rocking out to Slipknot, and feeling the rage with Rage Against the Machine. Let’s make some noise together."</p> <br><u><b>Favourite Band</b></u> <br>Stone-Sour <br> When Chai Made Tost <br>Rage against machine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        <section class="section bg-dark py-3">
+            <div class="container text-center">
+                <h5 class="text-light mb-4 font-weight-normal">"Let's play a love game. I'll be Alejandro, you be Lady Gaga and I'll let you take a ride on my disco stick."</h5>
+                <p style="color: #ff4c4c; font-size: 15px;">My Music List <b><u>( 🎧 Sense of  Self 🎧 )</u></b> is provided below 🔻 feel free to explore!</p>
+        
+                <div class="github-icon-container">
+                    <a href="https://open.spotify.com/playlist/2qI6ZjUJptBO0agnf23G8p?si=q-TmBwNDSYisBLQAtPC5Kw" target="_blank" class="github-icon">
+                        <!-- The circular button with text and a music icon inside -->
+                        <div class="rotate-button">
+                            <span class="music-icon">🎵</span>
+                            <h5 class="button-text">Shu-vOm szZ</h5>
+                        </div>
+                    </a>
+                    <div class="hover-bar"></div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+                        
+                        <style>
+                            .logo {
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                                object-fit: cover;
+                                transition: all 0.5s ease-in-out; /* Smooth transition */
+                            }
+                        
+                            .logo:hover {
+                                transform: scale(1.2) rotate(360deg); /* Zoom and rotate */
+                                filter: brightness(1.2) sepia(0.5); /* Add a brightness and sepia filter */
+                            }
+                        </style>
+                        
+                    </a>
+                    <div class="hover-bar"></div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    
+    
+    
+    
+    <!-- <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h5 class="text-light mb-5 font-weight-normal">"Should you require any additional information, please do not hesitate to reach out to me."</h5>
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+                <button class="btn bg-primary w-lg">Hire me 😊</button>
+            </a>
+        </div>
+    </section> -->
+    
     
 
     <div class="section contact" id="contact">
@@ -1185,6 +1191,15 @@
 
         </div>
     </div>
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h5 class="text-light mb-5 font-weight-normal">"Should you require any additional information, please do not hesitate to reach out to me."</h5>
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+                <button class="btn bg-primary w-lg">Hire me 😊</button>
+            </a>
+        </div>
+    </section>
+    
     
     <footer class="footer py-3">
         <div class="container">
